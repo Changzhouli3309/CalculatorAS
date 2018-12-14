@@ -1,9 +1,9 @@
 package se.lexicon.CalculatorAS;
 
 import java.util.Scanner;
-//get the yes or no answer, don't get anything else.
+//get the yes or no answer, don't accept anything else.
 public class YesOrNo {
-	private static Scanner scan= new Scanner(System.in);
+	private static Scanner scan = new Scanner(System.in);
 	
 	public static boolean anwer() {
 		
