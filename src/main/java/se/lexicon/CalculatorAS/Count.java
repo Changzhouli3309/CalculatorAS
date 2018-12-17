@@ -1,16 +1,14 @@
 package se.lexicon.CalculatorAS;
 
-import java.util.Scanner;
-//get the operation and do the counting
-//also show the result
+
 public class Count {
-	private static Scanner scan= new Scanner(System.in);
-	public static String cou(double num1,double num2) {
-		String op,re="";
+	
+	public static String cou(double num1,double num2,String op) {
+		String re="";
 		boolean v=false;
 		
 		while (!v) {
-			op=scan.nextLine();
+			
 			switch (op) {
 			case "+":
 				// write number to integer if is not a decimal.
@@ -27,7 +25,7 @@ public class Count {
 				break;
 			case "/":
 				if(num2==0) {
-					re=("Cannot division with 0.");
+					re="Cannot division with 0.";
 					v=true;
 					break;
 				}

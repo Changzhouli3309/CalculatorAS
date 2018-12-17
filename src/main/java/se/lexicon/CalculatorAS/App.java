@@ -1,8 +1,9 @@
 package se.lexicon.CalculatorAS;
 
+
+
 public class App 
 {
-	
 	public static void main( String[] args ){
 		
 		double n1=0,n2=0;
@@ -19,9 +20,9 @@ public class App
 			
 			System.out.println("(+,-,*,/ only)");
 			System.out.print("Operation :");
-			
+						
 			//Ask for operation, do the counting and show the result.
-			System.out.println(Count.cou(n1, n2));
+			System.out.println(Count.cou(n1, n2, GetVoperation.op()));
 			
 			//Ask for next calculate.
 			System.out.println("Next counting?(y/n)");
