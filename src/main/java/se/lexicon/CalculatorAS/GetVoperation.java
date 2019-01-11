@@ -16,7 +16,7 @@ public class GetVoperation {
 			case "*":
 			case "/":
 				v=true;
-				
+				break;
 			default:
 				System.out.println("Not availdble operations.");
 			}
